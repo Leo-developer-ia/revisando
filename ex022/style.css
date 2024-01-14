@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.quadrado{
+    height: 92vh;
+    width: 97%;
+    position: relative;
+    background-color: rgb(240, 5, 5);
+    padding: 5px;
+    border-radius: 16px;
+    margin: auto;
+}
+.conteudo{
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    background-color: rgb(2, 10, 6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cont{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(9, 248, 29);
+    margin: 30px;
+}
