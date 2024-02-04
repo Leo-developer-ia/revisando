@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teclado</title>
+    <style>
+        table{
+            width: 350px;
+            height: 300px;
+            border-collapse: separate;
+            
+        }
+        div{
+            width: 350px;
+            height: 420px;
+            border-radius: 10px;
+            background-image: linear-gradient(to left, green,blue);
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(31, 30, 30, 0.747);
+            color: white;
+
+        }
+        .pequeno{
+            width: 55px;
+            height: 60px;
+        }
+        #pqn{
+            width: 20px;
+        }
+    </style> 
+</head>
+<body>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="pequeno"><button>num lock</button></td>
+                    <td class="pequeno">/</td>
+                    <td class="pequeno">*</td>
+                    <td class="pequeno">-</td>
+                </tr>
+                <tr>
+                    <td class="pequeno">7</td>
+                    <td class="pequeno">8</td>
+                    <td class="pequeno">9</td>
+                    <td class="pequeno">+</td>
+                </tr>
+                <tr>
+                    <td class="pequeno">4</td>
+                    <td class="pequeno">5</td>
+                    <td class="pequeno">6</td>
+                    <td class="pequeno">.</td>
+                </tr>
+                <tr>
+                    <td class="pequeno" >3</td>
+                    <td class="pequeno" >2</td>
+                    <td class="pequeno" >1</td>
+                    <td  class="pequeno" rowspan="2">enter</td>
+                </tr>
+                <tr>
+                    <td class="pequeno" colspan="2">0</td>
+                    <td  class="pequeno" id="pqn"
+                    >,</td>
+        
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
